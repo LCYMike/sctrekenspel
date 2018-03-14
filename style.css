@@ -1,0 +1,56 @@
+@font-face {
+    font-family: vcr;
+    src: url("assets/fonts/VCR_OSD_MONO_1.001.ttf");
+}
+
+body {
+    background: azure;
+    background-image: url("assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.wrapper{
+    background-color: white;
+    width: 400px;
+    border: 3px midnightblue solid;
+    border-radius: 5px;
+    margin: auto auto;
+    alignment: center;
+    text-align: center;
+}
+
+#displayLives {
+    font-size: 30px;
+    font-family: "Arial Black";
+}
+
+#Assignment {
+    font-family: VCR;
+    font-size: 20px;
+}
+
+#answer {
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#livesLeft {
+    font-size: 20px;
+}
+
+#totalPoints {
+    font-size: 20px;
+}
+
+input{
+    outline: none;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
