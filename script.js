@@ -7,7 +7,6 @@ const volume = document.getElementById('volumeInfo');
 const displayLives = document.getElementById('displayLives');
 const totalTime = document.getElementById('totalTime');
 
-//test71281
 var Som;
 var lives = 3;
 var points = 0;
